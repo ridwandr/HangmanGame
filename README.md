@@ -17,12 +17,14 @@ The game includes category-based word selection, and automatic restart after eac
 Make sure Python 3 is installed on your system.
 
 ## File Structure
+```text
 hangman_game/
 │
 ├── hangman.py      # Main game logic
 ├── dist/
 │   └── hangman.exe # Compiled executable (optional)
 └── README.md
+```
 
 ## How to Run
 ```bash
@@ -42,14 +44,14 @@ pyinstaller --onefile hangman.py
 ```
 
 ## Sample Gameplay
-🎮 Welcome to Hangman!
-Category: Fruits
+🎮 Welcome to Hangman!\
+Category: Fruits\
 Guess the word. You have 6 attempts to save the hangman.
 
-Word: _ _ _ _ _
+Word: _ _ _ _ _\
 Guessed letters: a, e, i
 
-Guess a letter: o
+Guess a letter: o\
 Correct guess!
 
 ## Word Categories Included
@@ -65,10 +67,10 @@ Correct guess!
 - Choose your category
 - Web-based version
 
-Author
-[Ridwan Darmawan]
+Author\
+[Ridwan Darmawan]\
 This project is part of my learning journey in Python development.
 
-Thank you for checking out this project!
+Thank you for checking out this project!\
 Pull requests, stars, and feedback are always welcome!
 
