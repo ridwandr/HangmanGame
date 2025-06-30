@@ -27,6 +27,7 @@ hangman_game/
 ## How to Run
 ```bash
 python hangman.py
+```
 
 ## Run the Game (EXE Version)
 If you don't have Python installed, you can run the .exe file directly:
@@ -38,6 +39,7 @@ This file was generated using pyinstaller:
 
 ```bash
 pyinstaller --onefile hangman.py
+```
 
 ## Sample Gameplay
 🎮 Welcome to Hangman!
